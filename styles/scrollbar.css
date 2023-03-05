@@ -1,0 +1,23 @@
+@import 'constants.css';
+
+body::-webkit-scrollbar {
+  width: 5px; /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: inherit; /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-font-second); /* цвет плашки */
+  border-radius: 20px; /* закругления плашки */
+}
+
+.brand__list::-webkit-scrollbar {
+  width: 5px; /* ширина scrollbar */
+}
+.brand__list::-webkit-scrollbar-track {
+  background: inherit; /* цвет дорожки */
+}
+.brand__list::-webkit-scrollbar-thumb {
+  background-color: var(--color-font-second); /* цвет плашки */
+  border-radius: 20px; /* закругления плашки */
+}
